@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Play {
     public static final String BACKGROUND_BRIGHT_RED = "\u001b[41;1m ";
-    public static final String BACKGROUND_BRIGHT_YELLOW = "\u001b[43;1m ";
+    public static final String BACKGROUND_BRIGHT_YELLOW = "\u001b[43;1m "; //s
     public static final String BACKGROUND_BRIGHT_GREEN = "\u001b[42;1m ";
     public static final String RESET = " \u001b[0m ";
 
@@ -10,6 +10,7 @@ public class Play {
     static int i = 0;
     static Scanner scanner = new Scanner(System.in);
     static String str = "";
+    static int a=5; //bu githabda prosti tekshirish uchun.
 
 
     public static void main(String[] args) {
