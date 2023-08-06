@@ -10,7 +10,7 @@ public class Play {
     static int i = 0;
     static Scanner scanner = new Scanner(System.in);
     static String str = "";
-    static int a=5; //bu githabda prosti tekshirish uchun.
+
 
 
     public static void main(String[] args) {
